@@ -1,11 +1,25 @@
 {
   "name": "v-stock-ticker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple stock ticker component made using Vue",
   "author": "Suresh Thotakura (suresh.thotakura@gmail.com)",
+  "keywords": [
+    "Stock Ticker",
+    "Vue Stock Ticker"
+  ],
+  "homepage": "https://github.com/sthotakura/v-stock-ticker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sthotakura/v-stock-ticker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sthotakura/v-stock-ticker/issues"
+  },
+  "license": "ISC",
   "scripts": {
     "build": "webpack --config config/webpack.config.js"
   },
+  "main": "src/index.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
