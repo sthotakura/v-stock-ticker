@@ -51,7 +51,10 @@ export default {
     displayTimestamp() {
       return `${this.timestamp.getHours()}:${String(
         this.timestamp.getMinutes()
-      ).padStart(2, "0")}`;
+      ).padStart(2, "0")}:${String(this.timestamp.getSeconds()).padStart(
+        2,
+        "0"
+      )}`;
     },
   },
 

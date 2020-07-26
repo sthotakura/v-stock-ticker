@@ -1,6 +1,6 @@
 {
   "name": "v-stock-ticker",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "A simple stock ticker component made using Vue",
   "author": "Suresh Thotakura (suresh.thotakura@gmail.com)",
   "keywords": [
